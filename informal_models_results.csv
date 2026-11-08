@@ -1,0 +1,36 @@
+model,group,n,accuracy_ro,ci_low,ci_high
+Naive Bayes,all,2000,0.929,0.918,0.94
+Naive Bayes,ALL CAPS,199,0.7739,0.7136,0.8342
+Naive Bayes,not caps,1801,0.9461,0.935,0.9567
+Naive Bayes,"not caps, with diacritics",1030,0.9971,0.9932,1.0
+Naive Bayes,"not caps, no diacritics",771,0.8781,0.8547,0.9001
+Naive Bayes,under 30 chars,503,0.839,0.8032,0.8688
+Naive Bayes,30+ chars,1497,0.9593,0.9486,0.9693
+fastText small (ftz),all,2000,0.7405,0.7215,0.7575
+fastText small (ftz),ALL CAPS,199,0.1859,0.1357,0.2412
+fastText small (ftz),not caps,1801,0.8018,0.7829,0.8201
+fastText small (ftz),"not caps, with diacritics",1030,0.9757,0.966,0.9835
+fastText small (ftz),"not caps, no diacritics",771,0.5694,0.5318,0.6018
+fastText small (ftz),under 30 chars,503,0.5427,0.499,0.5845
+fastText small (ftz),30+ chars,1497,0.8069,0.7862,0.8257
+fastText large (bin),all,2000,0.7685,0.749,0.786
+fastText large (bin),ALL CAPS,199,0.1357,0.0854,0.1859
+fastText large (bin),not caps,1801,0.8384,0.8207,0.8556
+fastText large (bin),"not caps, with diacritics",1030,0.9874,0.9796,0.9942
+fastText large (bin),"not caps, no diacritics",771,0.6394,0.607,0.6745
+fastText large (bin),under 30 chars,503,0.6103,0.5666,0.6501
+fastText large (bin),30+ chars,1497,0.8216,0.8023,0.8397
+distilbert-base-multilingual-cased,all,2000,0.8525,0.838,0.868
+distilbert-base-multilingual-cased,ALL CAPS,199,0.191,0.1357,0.2462
+distilbert-base-multilingual-cased,not caps,1801,0.9256,0.9139,0.9367
+distilbert-base-multilingual-cased,"not caps, with diacritics",1030,0.9971,0.9932,1.0
+distilbert-base-multilingual-cased,"not caps, no diacritics",771,0.8301,0.8042,0.856
+distilbert-base-multilingual-cased,under 30 chars,503,0.7296,0.6899,0.7674
+distilbert-base-multilingual-cased,30+ chars,1497,0.8938,0.8778,0.9098
+xlm-roberta-base,all,2000,0.938,0.9275,0.9485
+xlm-roberta-base,ALL CAPS,199,0.7538,0.6935,0.8141
+xlm-roberta-base,not caps,1801,0.9584,0.9489,0.9667
+xlm-roberta-base,"not caps, with diacritics",1030,1.0,1.0,1.0
+xlm-roberta-base,"not caps, no diacritics",771,0.9027,0.8807,0.9222
+xlm-roberta-base,under 30 chars,503,0.833,0.8012,0.8648
+xlm-roberta-base,30+ chars,1497,0.9733,0.9646,0.9813

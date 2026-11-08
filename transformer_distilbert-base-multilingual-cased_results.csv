@@ -1,0 +1,31 @@
+model,n_params_million,diacritics_removed,typo_rate,accuracy_ro,ci_low,ci_high,std_over_seeds,mean_p_ro,top_confusions
+distilbert-base-multilingual-cased,135,0.0,0.0,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.0,0.05,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.0,0.1,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.0,0.2,1.0,1.0,1.0,0.0,0.9986,{}
+distilbert-base-multilingual-cased,135,0.0,0.3,0.9995,0.9985,1.0,0.001,0.9982,{'it': 1}
+distilbert-base-multilingual-cased,135,0.0,0.4,0.9995,0.9985,1.0,0.001,0.9978,{'es': 1}
+distilbert-base-multilingual-cased,135,0.25,0.0,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.25,0.05,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.25,0.1,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.25,0.2,0.999,0.9975,1.0,0.0012,0.9977,{'it': 2}
+distilbert-base-multilingual-cased,135,0.25,0.3,1.0,1.0,1.0,0.0,0.9979,{}
+distilbert-base-multilingual-cased,135,0.25,0.4,0.9995,0.9985,1.0,0.001,0.9971,{'fr': 1}
+distilbert-base-multilingual-cased,135,0.5,0.0,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.5,0.05,1.0,1.0,1.0,0.0,0.9986,{}
+distilbert-base-multilingual-cased,135,0.5,0.1,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.5,0.2,1.0,1.0,1.0,0.0,0.9985,{}
+distilbert-base-multilingual-cased,135,0.5,0.3,0.9995,0.9985,1.0,0.001,0.9962,{'fr': 1}
+distilbert-base-multilingual-cased,135,0.5,0.4,0.999,0.9975,1.0,0.0012,0.9951,"{'it': 1, 'fr': 1}"
+distilbert-base-multilingual-cased,135,0.75,0.0,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,0.75,0.05,1.0,1.0,1.0,0.0,0.9987,{}
+distilbert-base-multilingual-cased,135,0.75,0.1,1.0,1.0,1.0,0.0,0.9983,{}
+distilbert-base-multilingual-cased,135,0.75,0.2,1.0,1.0,1.0,0.0,0.9974,{}
+distilbert-base-multilingual-cased,135,0.75,0.3,0.999,0.9975,1.0,0.0012,0.9945,{'it': 2}
+distilbert-base-multilingual-cased,135,0.75,0.4,0.9955,0.9925,0.998,0.0024,0.9881,"{'it': 4, 'fr': 3, 'es': 2}"
+distilbert-base-multilingual-cased,135,1.0,0.0,1.0,1.0,1.0,0.0,0.9988,{}
+distilbert-base-multilingual-cased,135,1.0,0.05,1.0,1.0,1.0,0.0,0.9984,{}
+distilbert-base-multilingual-cased,135,1.0,0.1,1.0,1.0,1.0,0.0,0.9978,{}
+distilbert-base-multilingual-cased,135,1.0,0.2,0.997,0.9945,0.999,0.0024,0.9934,"{'it': 3, 'es': 2, 'fr': 1}"
+distilbert-base-multilingual-cased,135,1.0,0.3,0.9945,0.991,0.9975,0.0029,0.9863,"{'it': 7, 'es': 3, 'fr': 1}"
+distilbert-base-multilingual-cased,135,1.0,0.4,0.9955,0.992,0.9985,0.0024,0.9802,"{'it': 7, 'es': 1, 'fr': 1}"

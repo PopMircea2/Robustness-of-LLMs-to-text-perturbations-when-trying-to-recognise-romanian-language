@@ -1,0 +1,2 @@
+model,dataset,n,accuracy_ro,mean_p_ro,share_with_diacritics,acc_with_diacritics,acc_without_diacritics,median_chars,top_confusions
+xlm-roberta-base,offensive_comments,2000,0.938,0.9362,0.554,0.9955,0.8666,48,"{'es': 67, 'it': 54, 'fr': 3}"

@@ -1,0 +1,2 @@
+model,dataset,n,accuracy_ro,mean_p_ro,share_with_diacritics,acc_with_diacritics,acc_without_diacritics,median_chars,top_confusions
+distilbert-base-multilingual-cased,offensive_comments,2000,0.8525,0.8458,0.554,0.9603,0.7186,48,"{'es': 187, 'it': 81, 'fr': 27}"
